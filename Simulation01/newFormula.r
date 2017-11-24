@@ -12,3 +12,5 @@ concent <- function(x, y, z, T, Q, a, A, w, V, D, Rx, Ry, Rz){
 #Rx, Ry, and Rz are in the paper and depend on the dimensions of the room
 
 #sorry it took a long time to make this. it was hard to understand the formula at first, especially the R variables
+
+#D for CO is 0.19312 cm^2/s , while D for HCHO is 0.18 cm^2/s
