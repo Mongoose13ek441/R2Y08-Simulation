@@ -27,7 +27,7 @@ sourceList = list(source1, source2)
 #include list of plants
 plantList = list(plantA1, plantA2)
 #initialize room
-room1 = room$new(roomWidth, roomLength, sourceList, plantList, ventList)
+room1 = room$new(roomWidth, roomLength, sourceList, plantList)
 
 
 #excecute simulation
