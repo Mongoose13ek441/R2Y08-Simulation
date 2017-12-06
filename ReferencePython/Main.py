@@ -26,13 +26,15 @@ def roomUpdate():
 #function for plotting room data
 def plotData(grid,gas,t):
     print(grid)
+    import seaborn as sns
+    sns.heatmap(grid, annot=True,  linewidths=.5)
     plt.title("Room Concentrations at t = "+str(t))
     plt.xlabel("length")
     plt.ylabel("width")
-    plt.imshow(grid, cmap='hot', interpolation='nearest')
+    plt.show()
     plt.savefig(gas+"\Roomtime "+str(t))
     plt.close()
-    
+    print(test)
 #function for recording data
 
 #function for gas dispersion
